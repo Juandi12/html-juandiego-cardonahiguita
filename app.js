@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
       carta.addEventListener("click", voltearCarta);
       cuadricula.appendChild(carta);
     }
-    function verificarPareja
+    function verificarPareja(){
     var cards = document.querySelectorAll("img");
     const opcionUnoId = cartasEscogidasId[0];
     const opcionDosId = cartasEscogidasId[1];
